@@ -3465,22 +3465,24 @@
 		},
 		{
 			"scope": [
-				"entity.name.type.class.cpp", 
-				// "storage.type.built-in", 
-				"storage.type.primitive", 
-			],
-			"settings": {
-				"foreground": "#FFA600"
-			}
-		}, 
-		{
-			"scope": [
 				"entity.name.type", 
 				"entity.name.class", 
 			],
 			"settings": {
 				"foreground": "#569CD6"
 			}
+		}, 
+		{
+			"scope": [
+				"entity.name.type.class.cpp", 
+				// "storage.type.built-in", 
+				"storage.type.primitive", 
+				// "entity.name.type"
+			],
+			"settings": {
+				"foreground": "#FFA600"
+			}, 
+			
 		}, 
 		{
 			"scope": [
