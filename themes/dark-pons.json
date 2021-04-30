@@ -1818,7 +1818,7 @@
 				"punctuation.definition.section.case-statement"
 			],
 			"settings": {
-				"foreground": "#C586C0"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -3423,7 +3423,8 @@
 		{
 			"scope": [
 				"source.python",
-				"meta.function-call.arguments.python"
+				"meta.function-call.arguments.python", 
+				"source.asp.vb.net"
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
