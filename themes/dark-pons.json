@@ -3394,11 +3394,27 @@
 				"keyword.control.flow.python",
 				"keyword.control",
 				"keyword.operator.new",
-				"keyword.operator.logical.python"
+				"keyword.operator.logical.python", 
+				"keyword.operator.expression.in.js", 
+				"keyword.operator.expression.of.js", 
+				"storage.type.js"
 			],
 			"settings": {
 				"foreground": "#C02249",
 				"fontStyle": "italic bold "
+			}
+		},
+		// {
+		// 	"scope": "keyword.control",
+		// 	"settings": {
+		// 		"fontStyle": "italic bold underline"
+		// 	}
+		// },
+		{
+			"scope": "storage.type.function.js",
+			"settings": {
+				"foreground": "#DCDCAA", 
+				"fontStyle": "bold underline"
 			}
 		},
 		{
@@ -3424,7 +3440,8 @@
 			"scope": [
 				"source.python",
 				"meta.function-call.arguments.python", 
-				"source.asp.vb.net"
+				"source.asp.vb.net", 
+				"source.solidity"
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
